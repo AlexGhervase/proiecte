@@ -1,0 +1,51 @@
+body {
+    background-color:black;
+}
+h3{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+h5{
+    color:white;
+    text-align:center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+.topnav a:hover{
+    background-color:pink;
+    color:white;
+}
+.topnav input[type=text] {
+    float:right;
+    padding:6px;
+    border:none;
+    margin-top:8px;
+    margin-right:16px;
+    font-size:17px;
+
+}
+.search{
+    position:relative;
+}
+.search img {
+    width:12px;
+    height:12px;
+    position:absolute;
+    top:5px;
+    right:10px;
+}
+p {
+    color: white;
+}
